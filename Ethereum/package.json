@@ -1,0 +1,16 @@
+{
+  "name": "election-contract",
+  "version": "1.0.0",
+  "description": "Election smart contract",
+  "main": "compile.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "solc": "0.8.0",
+    "web3": "1.2.11",
+    "truffle-hdwallet-provider": "1.0.5",
+    "fs-extra": "8.1.0"
+  }
+}
